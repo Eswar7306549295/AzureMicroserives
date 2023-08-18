@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catelog.API", "services\Catelog\Catelog.API\Catelog.API.csproj", "{97F39F8F-26CB-418B-A706-C65C3276B965}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DE2A674-1D62-4B44-ACD7-CEA03155A76D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{8FE583D6-F46E-412B-85AC-670616F95451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catelog", "catelog", "{7E29EC49-3984-40A8-8B20-B4C8556EBA08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97F39F8F-26CB-418B-A706-C65C3276B965} = {7E29EC49-3984-40A8-8B20-B4C8556EBA08}
+		{8FE583D6-F46E-412B-85AC-670616F95451} = {1DE2A674-1D62-4B44-ACD7-CEA03155A76D}
+		{7E29EC49-3984-40A8-8B20-B4C8556EBA08} = {8FE583D6-F46E-412B-85AC-670616F95451}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC16BF47-5FC4-4754-A59D-06A8028E1906}
